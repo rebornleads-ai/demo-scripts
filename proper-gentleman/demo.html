@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Proper Gentleman Demo</title>
+  <title>Demo Iframe with Note</title>
   <style>
     html, body {
       margin: 0;
@@ -17,6 +17,16 @@
       top: 0;
       left: 0;
     }
+    .custom-note {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: #d4d4d4;
+      font-size: 12px;
+      text-align: center;
+      padding-top: 5px; /* Small top padding for spacing */
+    }
   </style>
 </head>
 <body>
@@ -26,5 +36,8 @@
           loading="lazy">
     Your browser does not support iframes.
   </iframe>
+  <div class="custom-note">
+    Powered by <a href="https://rebornleads.ai" target="_blank">rebornleads.ai</a>
+  </div>
 </body>
 </html>
