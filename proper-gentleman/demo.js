@@ -7,8 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   iframe.style.border = 'none';
   iframe.style.width = '100%';
   iframe.style.minHeight = '400px';
-  iframe.style.height = '600px';
-  iframe.style.maxHeight = '90vh';
+  iframe.style.height = '100%';
   iframe.allowFullscreen = true;
   iframe.loading = 'lazy';
 
