@@ -9,14 +9,6 @@
       height: 100%;
       overflow: hidden; /* Prevents scrollbars */
     }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
     .custom-note {
       position: absolute;
       bottom: 0;
@@ -30,14 +22,16 @@
   </style>
 </head>
 <body>
-  <iframe src="https://buildmyagent.io/shared/vykRJUrrMm?embed=true" 
-          title="Embedded Demo Content" 
-          allowfullscreen 
-          loading="lazy">
-    Your browser does not support iframes.
-  </iframe>
+  <iframe
+  src="https://buildmyagent.io/shared/vykRJUrrMm?embed=true"
+  width="100%"
+  height="600"
+  style="border: none; width: 100%; min-height: 400px; height: 600px; max-height: 90vh;"
+  allowfullscreen
+  loading="lazy">
+</iframe>
   <div class="custom-note">
-    Powered by <a href="https://rebornleads.ai" target="_blank">rebornleads.ai</a>
+    Powered by <a href="https://rebornleads.ai" target="_blank">rebornleads.ai</a>.
   </div>
 </body>
 </html>
